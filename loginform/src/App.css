@@ -1,0 +1,27 @@
+
+
+
+.body{
+
+  height: 70vh;
+  width: 400px;
+  margin-top: 10%;
+  margin-left: 40%;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  background-color: rgba(105, 212, 17, 0.772);
+ 
+  
+}
+
+
+.form-group{
+  padding: 10px;
+  
+  
+ 
+ 
+  
+}
