@@ -112,3 +112,36 @@
     }
   }
   
+
+
+  .user-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    text-align: center;
+    border: 5px solid black;
+    background: #eceaea;  
+    border-radius: 12px;  
+    
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .user-button {
+    width: 10%;
+    padding: 0px;
+    margin-left: 45%;
+    margin-top: 20px;
+    font-size: 18px;
+    background: linear-gradient(135deg, #1f82ca, #24272e);
+    color: white;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s, transform 0.2s;
+  }
+
+  .user-button:hover {
+    background: linear-gradient(135deg, #0c11bb, #111110);
+    transform: scale(1.05);
+  } 

@@ -34,18 +34,24 @@ const userList = JSON.parse(localStorage.getItem("users")) || [];
 
 return (
   <>
-  <div>
-    {userName.map((user, index) => (
-      <div key={index}>
-        <h1>{user}</h1>
-      </div>
-    ))}
-  </div>
-
-  <button className='signUp-container'
+      <button className='user-button'
    onClick={() => {
     navigate('/')
   }}> back to login page  </button>
+    
+
+    <div className='user-container'>
+      <h1 style={{color: "red"}} > User list  </h1>
+
+  
+    {userName.map((user, index) => (
+      <div key={index} style={{border: "1px solid black" }}>
+        <h3>{user}</h3>
+      </div>  
+    ))}
+  </div>
+
+  
 
   </>
   
