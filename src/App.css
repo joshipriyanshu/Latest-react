@@ -1,0 +1,114 @@
+/* Center the login form with a modern card layout */
+
+/* *{
+  background-color: grey;
+} */
+
+
+
+.login-container {
+    max-width: 350px;
+    margin: 100px auto;
+    padding: 30px;
+    text-align: center;
+    background: #ebc3c3;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .login-container:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Title Styling */
+  .login-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+  }
+
+  p{
+
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+  }
+
+  .signup-container {
+    max-width: 350px;
+    margin: 10px auto;
+    padding: 30px;
+    text-align: center;
+    background: #ebc3c3;
+    border-radius: 12px;  
+    
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  
+  /* Input fields */
+  .input-field {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  .input-field:focus {
+    border-color: #007bff;
+  }
+  
+  /* Login button */
+  .login-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    background: linear-gradient(135deg, #14ec99, #0fee25);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s, transform 0.2s;
+  }
+  
+  .login-button:hover {
+    background: linear-gradient(135deg, #99ef0e, #83ee08);
+    transform: scale(1.05);
+  }
+
+
+  .signup-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    background: linear-gradient(135deg, #8986bb, #7386b4);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s, transform 0.2s;
+  }
+  
+  
+  /* Error message */
+  .error-message {
+    color: rgb(243, 10, 10);
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+    
+  /* Responsive Design */
+  @media (max-width: 400px) {
+    .login-container {
+      width: 90%;
+    }
+  }
+  
